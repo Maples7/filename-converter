@@ -18,7 +18,7 @@ Convert an invalid filename to a valid one with a self-defined mapping table. Th
 ### Installation
 
 ```sh
-npm i filename-converter
+npm i filename-converter --save
 ```
 
 ### Example
