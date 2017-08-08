@@ -1,0 +1,31 @@
+{
+  "name": "filename-converter",
+  "version": "1.0.0",
+  "description": "Convert a invalid filename to a valid one with a self-defined mapping table. The key point is the mapping is reversible.",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc ava",
+    "coverage": "./node_modules/.bin/nyc report --reporter=text-lcov | ./node_modules/.bin/coveralls"
+  },
+  "nyc": {
+    "exclude": ["test*.js"]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maples7/filename-converter.git"
+  },
+  "author": "Maples7 <maples7.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Maples7/filename-converter/issues"
+  },
+  "homepage": "https://github.com/Maples7/filename-converter#readme",
+  "devDependencies": {
+    "ava": "^0.21.0",
+    "coveralls": "^2.13.1",
+    "nyc": "^11.1.0"
+  },
+  "engines": {
+    "node": ">=4.4.0"
+  }
+}

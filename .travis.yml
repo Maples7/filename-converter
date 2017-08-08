@@ -1,0 +1,9 @@
+language: node_js
+node_js:
+  - "4.4"
+  - "6.1"
+after_script:
+  - './node_modules/.bin/nyc report --reporter=text-lcov | ./node_modules/.bin/coveralls'
+cache:
+  directories:
+    - node_modules
