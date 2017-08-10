@@ -14,6 +14,7 @@
     "type": "git",
     "url": "git+https://github.com/Maples7/filename-converter.git"
   },
+  "keywords": ["filename", "converter"],
   "author": "Maples7 <maples7.com>",
   "license": "MIT",
   "bugs": {
